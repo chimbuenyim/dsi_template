@@ -11,10 +11,6 @@ export const HomePageWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    .app__home-hero {
-      height: 95vh;
-    }
-
     .app__home-bodyCard {
       display: flex;
 
@@ -35,10 +31,6 @@ export const HomePageWrapper = styled.div`
 
       p {
         margin-bottom: 20px;
-      }
-
-      span {
-        color: ${({ theme }) => theme.primaryColor};
       }
     }
 

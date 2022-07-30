@@ -25,6 +25,10 @@ const GlobalStyles = createGlobalStyle`
         flex-direction: row-reverse ;
         background-color:${({ theme }) => theme.lightGreyColor} ;
     }
+
+    .app__color-name{
+        color:${({ theme }) => theme.primaryColor}
+    }
 `;
 
 export default GlobalStyles;

@@ -13,7 +13,7 @@ const HomePage = () => {
           <div
             className={`app__home-bodyCard ${
               id % 2 === 0 ? "row-reverse" : null
-            } ${id === 1 ? "app__home-hero" : null}`}
+            }`}
             key={id}
           >
             <Container
